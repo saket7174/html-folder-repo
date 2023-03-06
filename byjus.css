@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{ margin :0;
+    padding:0;
+    font-family: 'Poppins';
+    text-align: center;
+    list-style: none;
+
+}
+h1,h2,h3,h4,h5{
+    text-shadow: 2px 2px 4px black;
+}
+nav{ 
+    /* border: 2px solid red; */
+    padding-top: 10px;
+    color: rgb(255, 208, 0);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(205, 51, 219);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Poppins';
+}
+nav a{
+    color: rgb(255, 208, 0);
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+ button {
+    border: 2px solid rgb(255, 208, 0)  ;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(255, 208, 0);
+    font-weight: 800;
+    cursor: pointer;
+}
+.main {
+    /* border: 2px solid black; */
+    /* box-shadow: 5px 8px 10px black; */
+    background-color: rgb(205, 51, 219);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0% 0% 77% 54% / 100% 35% 37% 19% ;
+    overflow: hidden;
+}
+.main img{
+    height: 600px;
+    filter: drop-shadow(5px 5px 10px black);
+
+}
+.main .form {
+    /* height:500px; */
+    background-color: white;
+    border: 1px solid grey;
+    width: 30%;
+    border-radius: 30px;
+    padding: 40px 0;
+
+}
+.main .form input, .form button{
+    width: 80%;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    text-align: left;
+}
+.form button{
+    /* border: none; */
+    text-align: center;
+    background: linear-gradient(orange, rgb(248, 103, 103));
+    color: white;
+}
+.byjus{
+    /* border: 2px solid black; */
+     text-align: center;
+    margin: 40px auto;
+    width: 40%;
+
+}
+
+.learn .one{
+    /* border: 2px solid black; */
+    background-color: rgba(141, 141, 141, 0.30);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 10px 15px grey ;
+    position: relative;
+
+}
+.learn .one .card{
+    /* border-left: 2px solid green; */
+    /* margin: 100px; */
+    margin: 0 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.card img{
+    /* height: 40%; */
+    margin: 0 20px ;
+    width: 50%;
+}
+.Explore{
+    position: absolute;
+    bottom: 10px;
+}
+.two {
+    /* border: 2px solid black; */
+    height: 55vh;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.two .card{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two .learner .card img{
+    /* height: 600px; */
+    width: 50%;
+
+
+}
+.footer {
+    /* border: 2px solid red; */
+    /* background: linear-gradient(white,blueviolet); */
+    display: flex;
+    background-color: blueviolet;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+}
+.footer h2{ 
+    color: rgb(255, 208, 0);
+}
